@@ -1,0 +1,17 @@
+<manifest alg="2" build="2015.1.0.342" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1455737092694">
+  <folder name="css">
+    <file name="site_global.css" crc="131700929"/>
+    <file name="index.css" crc="13249097" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="409338010" ref="index"/>
+    <file name="museutils.js" crc="4190794036" ref="index"/>
+    <file name="whatinput.js" crc="84559013" ref="index"/>
+    <file name="jquery.watch.js" crc="349565855" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="bottom_sp-logo.svg" crc="183936026" ref="index"/>
+    <file name="bottom_sp logo_poster_.png" crc="3777227247" ref="index"/>
+  </folder>
+  <file name="index.html" crc="126485099" seo="true" mt="1455737068708" redirect="true"/>
+</manifest>

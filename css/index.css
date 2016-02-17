@@ -1,0 +1,60 @@
+.version.index /* version checker */
+{
+	color: #000000;
+	background-color: #CA2A49;
+}
+
+#page
+{
+	z-index: 1;
+	min-height: 139px;
+	background-image: none;
+	border-width: 0px;
+	border-color: #000000;
+	background-color: transparent;
+	padding-top: 158px;
+	padding-bottom: 203px;
+	width: 100%;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u101
+{
+	z-index: 6;
+	background-color: transparent;
+	position: relative;
+	width: 19.54%;
+	margin-left: 31.94%;
+}
+
+#u97
+{
+	z-index: 7;
+	display: block;
+	width: 100%;
+}
+
+#u94-4
+{
+	z-index: 2;
+	min-height: 52px;
+	background-color: transparent;
+	margin-top: 7px;
+	position: relative;
+	width: 29.99%;
+	margin-left: 31.94%;
+}
+
+#muse_css_mq,.html
+{
+	background-color: #FFFFFF;
+}
+
+body
+{
+	position: relative;
+	min-width: 320px;
+}
+
