@@ -1,26 +1,28 @@
-<manifest alg="2" build="2015.1.0.342" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1456173574677">
+<manifest alg="2" build="2015.1.0.342" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1456174959817">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="3931572879" ref="index"/>
-    <file name="forum.css" crc="419117611" ref="forum"/>
-    <file name="projects.css" crc="419117611" ref="projects"/>
-    <file name="downloads.css" crc="419117611" ref="downloads"/>
-    <file name="stream.css" crc="419117611" ref="stream"/>
+    <file name="index.css" crc="3882234909" ref="index"/>
+    <file name="forum.css" crc="4137932377" ref="forum"/>
+    <file name="projects.css" crc="85607591" ref="projects"/>
+    <file name="downloads.css" crc="4137932377" ref="downloads"/>
+    <file name="stream.css" crc="4137932377" ref="stream"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="409338010" ref="index:projects:stream:forum:downloads"/>
     <file name="museutils.js" crc="4190794036" ref="index:projects:stream:forum:downloads"/>
     <file name="whatinput.js" crc="84559013" ref="index:projects:stream:forum:downloads"/>
     <file name="jquery.watch.js" crc="349565855" ref="index:projects:stream:forum:downloads"/>
-    <file name="jquery.musemenu.js" crc="3866264083" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="3837774061" ref="index"/>
+    <file name="jquery.musemenu.js" crc="3866264083" ref="index:projects"/>
+    <file name="jquery.scrolleffects.js" crc="3837774061" ref="index:projects"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:projects:stream:forum:downloads"/>
+    <file name="pie.js" crc="3827607177" ref="projects"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3792042506" ref="projects"/>
   </folder>
   <folder name="images">
     <file name="landing_0012_group 1.png" crc="4119957550" seo="true" ref="index"/>
-    <file name="topbar.svg" crc="162245559" ref="index"/>
+    <file name="topbar.svg" crc="162245559" ref="index:projects"/>
     <file name="topbar_poster_.png" crc="238652534" ref="index"/>
-    <file name="sp-logomain.svg" crc="119003110" ref="index"/>
+    <file name="sp-logomain.svg" crc="119003110" ref="index:projects"/>
     <file name="sp logomain_poster_.png" crc="3921822952" ref="index"/>
     <file name="landing_0003_owl.png" crc="402197441" seo="true" ref="index"/>
     <file name="landing_0007_peel.png" crc="4108426897" seo="true" ref="index"/>
@@ -29,12 +31,19 @@
     <file name="landing_0010_pengiun.png" crc="3855679392" seo="true" ref="index"/>
     <file name="landing_0005_chicken.png" crc="241321777" seo="true" ref="index"/>
     <file name="landing_0009_deadespio.png" crc="310189543" seo="true" ref="index"/>
-    <file name="landing_0008_mop.png" crc="3976979735" seo="true" ref="index"/>
-    <file name="landing_0002_heroes_.png" crc="3940090879" seo="true" ref="index"/>
+    <file name="landing_0008_mop.png" crc="4081974884" seo="true" ref="index"/>
+    <file name="landing_0002_heroes_.png" crc="3774995239" seo="true" ref="index"/>
+    <file name="u1550-4.png" crc="223567204" ref="projects"/>
+    <file name="collabs.jpg" crc="3971172134" ref="projects"/>
+    <file name="u1472-4.png" crc="447280428" ref="projects"/>
+    <file name="u2001-4.png" crc="40674989" ref="projects"/>
+    <file name="u2010-4.png" crc="3989140940" ref="projects"/>
+    <file name="u2025-4.png" crc="241962581" ref="projects"/>
+    <file name="u2034-4.png" crc="3818502781" ref="projects"/>
   </folder>
-  <file name="index.html" crc="444483527" seo="true" mt="1456173471146" redirect="true"/>
-  <file name="projects.html" crc="3919382418" seo="true" mt="1456173248167" redirect="false"/>
-  <file name="stream.html" crc="478047893" seo="true" mt="1456173248170" redirect="false"/>
-  <file name="forum.html" crc="3959224882" seo="true" mt="1456173248173" redirect="false"/>
-  <file name="downloads.html" crc="3950513627" seo="true" mt="1456173248175" redirect="false"/>
+  <file name="index.html" crc="3965224104" seo="true" mt="1456174940120" redirect="true"/>
+  <file name="projects.html" crc="4218686840" seo="true" mt="1456174957544" redirect="true"/>
+  <file name="stream.html" crc="478047893" seo="true" mt="1456174940169" redirect="false"/>
+  <file name="forum.html" crc="3959224882" seo="true" mt="1456174940171" redirect="false"/>
+  <file name="downloads.html" crc="3950513627" seo="true" mt="1456174940173" redirect="false"/>
 </manifest>

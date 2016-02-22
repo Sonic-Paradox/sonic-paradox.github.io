@@ -1,7 +1,12 @@
 .version.stream /* version checker */
 {
-	color: #000018;
-	background-color: #FB3A2B;
+	color: #0000F6;
+	background-color: #A3D659;
+}
+
+#muse_css_mq
+{
+	background-color: #FFFFFF;
 }
 
 #page
@@ -20,9 +25,9 @@
 	margin-right: auto;
 }
 
-#muse_css_mq,.html
+.html
 {
-	background-color: #FFFFFF;
+	background-color: #000D24;
 }
 
 body
