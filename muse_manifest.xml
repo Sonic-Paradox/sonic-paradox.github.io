@@ -1,25 +1,26 @@
-<manifest alg="2" build="2015.1.0.342" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1456195903557">
+<manifest alg="2" build="2015.1.0.342" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1456196267045">
   <folder name="assets">
     <folder name="navbar">
       <folder name="edge_includes">
-        <file name="edge.6.0.0.min.js" crc="3929159849" mt="1456195846000"/>
+        <file name="edge.6.0.0.min.js" crc="3929159849" mt="1456196211000"/>
       </folder>
       <folder name="images">
-        <file name="Poster.png" crc="515728466" mt="1456195846000"/>
-        <file name="Poster2.png" crc="95134154" mt="1456195846000"/>
-        <file name="sp 1.svg" crc="362996411" mt="1456195846000"/>
-        <file name="sp 2.svg" crc="323829064" mt="1456195846000"/>
-        <file name="SP logomain.svg" crc="119003110" mt="1456195846000"/>
-        <file name="topbar.svg" crc="162245559" mt="1456195846000"/>
+        <file name="Poster.png" crc="515728466" mt="1456196211000"/>
+        <file name="Poster2.png" crc="95134154" mt="1456196211000"/>
+        <file name="sp 1.svg" crc="362996411" mt="1456196211000"/>
+        <file name="sp 2.svg" crc="323829064" mt="1456196211000"/>
+        <file name="SP logomain.svg" crc="119003110" mt="1456196211000"/>
+        <file name="topbar.svg" crc="162245559" mt="1456196211000"/>
+        <file name="Poster3.png" crc="3768660576" mt="1456196211000"/>
       </folder>
-      <file name="transparent.png" crc="4139694660" mt="1456195846000"/>
-      <file name="navbar_edge.js" crc="504834389" mt="1456195846000"/>
-      <file name="navbar.html" crc="184571599" mt="1456195846000"/>
+      <file name="transparent.png" crc="365509329" mt="1456196211000"/>
+      <file name="navbar_edge.js" crc="4158053357" mt="1456196211000"/>
+      <file name="navbar.html" crc="4181523682" mt="1456196211000"/>
     </folder>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="52606168" ref="index"/>
+    <file name="index.css" crc="3996521353" ref="index"/>
     <file name="forum.css" crc="4137932377" ref="forum"/>
     <file name="projects.css" crc="3921488723" ref="projects"/>
     <file name="downloads.css" crc="4137932377" ref="downloads"/>
@@ -51,7 +52,7 @@
     <file name="landing_0008_mop.png" crc="4081974884" seo="true" ref="index"/>
     <file name="landing_0002_heroes_.png" crc="3774995239" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="126785320" seo="true" mt="1456195852402" redirect="true"/>
+  <file name="index.html" crc="361533799" seo="true" mt="1456196248585" redirect="true"/>
   <file name="projects.html" crc="4154660142" seo="true" mt="1456192045839" redirect="true"/>
   <file name="stream.html" crc="478047893" seo="true" mt="1456174940169" redirect="false"/>
   <file name="forum.html" crc="3959224882" seo="true" mt="1456174940171" redirect="false"/>

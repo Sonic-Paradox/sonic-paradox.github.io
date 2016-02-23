@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000003;
-	background-color: #22B4D8;
+	color: #0000EE;
+	background-color: #361389;
 }
 
 #muse_css_mq
@@ -123,22 +123,22 @@
 	left: 488px;
 }
 
-#u2747
+#u3054
 {
 	z-index: 22;
 	width: 1280px;
-	height: 61px;
+	height: 75px;
 	background-color: transparent;
 	position: fixed;
-	top: -1px;
+	top: 0px;
 	left: 50%;
-	margin-left: -640px;
+	margin-left: -664px;
 }
 
-#U2871_animation
+#U3057_animation
 {
 	width: 1280px;
-	height: 61px;
+	height: 75px;
 	border: none;
 }
 
