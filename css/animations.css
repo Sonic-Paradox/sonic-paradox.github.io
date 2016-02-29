@@ -1,7 +1,7 @@
 .version.animations /* version checker */
 {
-	color: #000014;
-	background-color: #29970D;
+	color: #0000FA;
+	background-color: #BDF085;
 }
 
 #muse_css_mq
@@ -28,7 +28,7 @@
 	width: 0.01px;/* should not cover content below */
 }
 
-#u4723
+#u4967
 {
 	z-index: 113;
 	width: 1280px;
@@ -40,7 +40,7 @@
 	margin-left: -664px;
 }
 
-#U4725_animation
+#U4969_animation
 {
 	width: 1280px;
 	height: 75px;

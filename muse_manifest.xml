@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.1.0.342" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1456785206346">
+<manifest alg="2" build="2015.1.0.342" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1456785626594">
   <folder name="assets">
     <folder name="navbar">
       <folder name="edge_includes">
@@ -29,7 +29,7 @@
     <file name="other.css" crc="82793914" ref="other"/>
     <file name="music.css" crc="82793914" ref="music"/>
     <file name="dubs.css" crc="82793914" ref="dubs"/>
-    <file name="animations.css" crc="338269965" ref="animations"/>
+    <file name="animations.css" crc="4206751877" ref="animations"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="409338010" ref="index:projects:stream:forum:downloads:meet-the-team:music:dubs:other:animations"/>
@@ -65,5 +65,5 @@
   <file name="music.html" crc="3925059371" seo="true" mt="1456196828799" redirect="false"/>
   <file name="dubs.html" crc="533689111" seo="true" mt="1456196828801" redirect="false"/>
   <file name="other.html" crc="4164174880" seo="true" mt="1456196828808" redirect="false"/>
-  <file name="animations.html" crc="3793906813" seo="true" mt="1456785168507" redirect="true"/>
+  <file name="animations.html" crc="444679764" seo="true" mt="1456785608348" redirect="true"/>
 </manifest>
