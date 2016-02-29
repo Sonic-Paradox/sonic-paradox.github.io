@@ -3,15 +3,16 @@
  <head>
 
   <script type="text/javascript">
-   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.watch.js", "meet-the-team.css"], "outOfDate":[]};
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.watch.js", "jquery.scrolleffects.js", "meet-the-team.css"], "outOfDate":[]};
 </script>
   
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
   <meta name="generator" content="2015.1.0.342"/>
   <title>Meet The Team</title>
+  <meta http-equiv="X-UA-Compatible" content="chrome=IE8"/>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?131700929"/>
-  <link rel="stylesheet" type="text/css" href="css/meet-the-team.css?82793914" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/meet-the-team.css?4000340610" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
@@ -20,7 +21,21 @@
  <body>
 
   <div class="clearfix" id="page"><!-- column -->
-   <div class="verticalspacer"></div>
+   <div class="position_content" id="page_position_content">
+    <div class="pinned-colelem" id="u3681"><!-- animation -->
+     <iframe id="U3683_animation" src="assets/navbar/navbar.html" scrolling="no" class="animationContainer an_invi"></iframe>
+    </div>
+    <img class="colelem" id="u3745-4" alt="Meet the team" width="890" height="72" src="images/u3745-4.png"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu3840"><!-- group -->
+     <div class="browser_width grpelem" id="u3840-bw">
+      <div id="u3840"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u3843-bw">
+      <div class="gradient" id="u3843"><!-- simple frame --></div>
+     </div>
+    </div>
+    <div class="verticalspacer"></div>
+   </div>
   </div>
   <!-- JS includes -->
   <script type="text/javascript">
@@ -32,6 +47,7 @@
   <script src="scripts/museutils.js?4190794036" type="text/javascript"></script>
   <script src="scripts/whatinput.js?84559013" type="text/javascript"></script>
   <script src="scripts/jquery.watch.js?349565855" type="text/javascript"></script>
+  <script src="scripts/jquery.scrolleffects.js?3837774061" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    $(document).ready(function() { try {
@@ -40,7 +56,11 @@ for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.re
 typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.initializeAnimations();/* animations */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
+$('#u3681').registerEdgeAnimateScrollEffect([{"in":[-Infinity,48],"play":false},{"in":[48,Infinity],"play":80}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 } catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});

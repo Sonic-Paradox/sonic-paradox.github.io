@@ -1,7 +1,7 @@
 .version.projects /* version checker */
 {
-	color: #0000E9;
-	background-color: #BD2B53;
+	color: #000018;
+	background-color: #6498C1;
 }
 
 #muse_css_mq
@@ -12,31 +12,98 @@
 #page
 {
 	z-index: 1;
-	width: 69px;
-	min-height: 0px;
+	width: 1024px;
+	min-height: 671px;
 	background-image: none;
 	border-width: 0px;
 	border-color: #000000;
 	background-color: transparent;
+	padding-bottom: 289px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 913px 523px 62px 432px;
 }
 
-#u1520
+#u4093
 {
 	z-index: 2;
-	width: 69px;
-	height: 82px;
-	position: relative;
+	width: 1280px;
+	height: 75px;
+	background-color: transparent;
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	margin-left: -664px;
 }
 
-.ie #u1520
+#U4095_animation
 {
-	background-color: #FFFFFF;
-	opacity: 0.01;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
-	filter: alpha(opacity=1);
+	width: 1280px;
+	height: 75px;
+	border: none;
+}
+
+#u4626-4
+{
+	z-index: 3;
+	width: 228px;
+	min-height: 548px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFFFFF;
+	background-color: transparent;
+	color: #FFFFFF;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 121px;
+	left: 20px;
+}
+
+#u4629-4
+{
+	z-index: 7;
+	width: 228px;
+	min-height: 548px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFFFFF;
+	background-color: transparent;
+	color: #FFFFFF;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 121px;
+	left: 272px;
+}
+
+#u4632-4
+{
+	z-index: 11;
+	width: 228px;
+	min-height: 548px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFFFFF;
+	background-color: transparent;
+	color: #FFFFFF;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 121px;
+	left: 523px;
+}
+
+#u4635-4
+{
+	z-index: 15;
+	width: 228px;
+	min-height: 548px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFFFFF;
+	background-color: transparent;
+	color: #FFFFFF;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 121px;
+	left: 775px;
 }
 
 .html
@@ -49,4 +116,5 @@ body
 	position: relative;
 	min-width: 1024px;
 }
+
 

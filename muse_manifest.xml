@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.1.0.342" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1456198364301">
+<manifest alg="2" build="2015.1.0.342" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1456785206346">
   <folder name="assets">
     <folder name="navbar">
       <folder name="edge_includes">
@@ -22,22 +22,21 @@
     <file name="site_global.css" crc="131700929"/>
     <file name="index.css" crc="417455456" ref="index"/>
     <file name="forum.css" crc="4137932377" ref="forum"/>
-    <file name="projects.css" crc="3921488723" ref="projects"/>
+    <file name="projects.css" crc="409245889" ref="projects"/>
     <file name="downloads.css" crc="4137932377" ref="downloads"/>
     <file name="stream.css" crc="4137932377" ref="stream"/>
-    <file name="solo-animations.css" crc="82793914" ref="solo-animations"/>
-    <file name="meet-the-team.css" crc="82793914" ref="meet-the-team"/>
+    <file name="meet-the-team.css" crc="4000340610" ref="meet-the-team"/>
     <file name="other.css" crc="82793914" ref="other"/>
-    <file name="collaborative-animations.css" crc="82793914" ref="collaborative-animations"/>
     <file name="music.css" crc="82793914" ref="music"/>
     <file name="dubs.css" crc="82793914" ref="dubs"/>
+    <file name="animations.css" crc="338269965" ref="animations"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="409338010" ref="index:projects:stream:forum:downloads:meet-the-team:collaborative-animations:solo-animations:music:dubs:other"/>
-    <file name="museutils.js" crc="4190794036" ref="index:projects:stream:forum:downloads:meet-the-team:collaborative-animations:solo-animations:music:dubs:other"/>
-    <file name="whatinput.js" crc="84559013" ref="index:projects:stream:forum:downloads:meet-the-team:collaborative-animations:solo-animations:music:dubs:other"/>
-    <file name="jquery.watch.js" crc="349565855" ref="index:projects:stream:forum:downloads:meet-the-team:collaborative-animations:solo-animations:music:dubs:other"/>
-    <file name="jquery.scrolleffects.js" crc="3837774061" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="409338010" ref="index:projects:stream:forum:downloads:meet-the-team:music:dubs:other:animations"/>
+    <file name="museutils.js" crc="4190794036" ref="index:projects:stream:forum:downloads:meet-the-team:music:dubs:other:animations"/>
+    <file name="whatinput.js" crc="84559013" ref="index:projects:stream:forum:downloads:meet-the-team:music:dubs:other:animations"/>
+    <file name="jquery.watch.js" crc="349565855" ref="index:projects:stream:forum:downloads:meet-the-team:music:dubs:other:animations"/>
+    <file name="jquery.scrolleffects.js" crc="3837774061" ref="index:projects:meet-the-team:animations"/>
   </folder>
   <folder name="images">
     <file name="landing_0012_group 1.png" crc="4119957550" seo="true" ref="index"/>
@@ -50,16 +49,21 @@
     <file name="landing_0009_deadespio.png" crc="310189543" seo="true" ref="index"/>
     <file name="landing_0008_mop.png" crc="4081974884" seo="true" ref="index"/>
     <file name="landing_0002_heroes_.png" crc="3774995239" seo="true" ref="index"/>
+    <file name="u3745-4.png" crc="4132393231" ref="meet-the-team"/>
+    <file name="checker-u3840-fr.png" crc="140511849" ref="meet-the-team"/>
+    <file name="checker.png" crc="3842167809" ref="animations"/>
+    <file name="u4476-grad.png" crc="4146732841" ref="animations"/>
+    <file name="shortsbanner.svg" crc="3820282405" ref="animations"/>
+    <file name="shortsbanner_poster_.png" crc="3809302905" ref="animations"/>
   </folder>
-  <file name="index.html" crc="29249020" seo="true" mt="1456198310301" redirect="true"/>
-  <file name="projects.html" crc="4154660142" seo="true" mt="1456196828775" redirect="true"/>
+  <file name="index.html" crc="29249020" seo="true" mt="1456783669207" redirect="true"/>
+  <file name="projects.html" crc="126788111" seo="true" mt="1456784855570" redirect="true"/>
   <file name="stream.html" crc="266654232" seo="true" mt="1456196828783" redirect="false"/>
   <file name="forum.html" crc="3781838682" seo="true" mt="1456196828785" redirect="false"/>
   <file name="downloads.html" crc="59972907" seo="true" mt="1456196828786" redirect="false"/>
-  <file name="meet-the-team.html" crc="4220081635" seo="true" mt="1456196828788" redirect="false"/>
-  <file name="collaborative-animations.html" crc="3807316611" seo="true" mt="1456196828795" redirect="false"/>
-  <file name="solo-animations.html" crc="3771083280" seo="true" mt="1456196828797" redirect="false"/>
+  <file name="meet-the-team.html" crc="3900159673" seo="true" mt="1456782149511" redirect="true"/>
   <file name="music.html" crc="3925059371" seo="true" mt="1456196828799" redirect="false"/>
   <file name="dubs.html" crc="533689111" seo="true" mt="1456196828801" redirect="false"/>
   <file name="other.html" crc="4164174880" seo="true" mt="1456196828808" redirect="false"/>
+  <file name="animations.html" crc="3793906813" seo="true" mt="1456785168507" redirect="true"/>
 </manifest>
