@@ -1,7 +1,7 @@
 .version.projects /* version checker */
 {
-	color: #000018;
-	background-color: #6498C1;
+	color: #0000E3;
+	background-color: #BC2F76;
 }
 
 #muse_css_mq
@@ -25,9 +25,9 @@
 
 #u4093
 {
-	z-index: 2;
+	z-index: 18;
 	width: 1280px;
-	height: 75px;
+	height: 240px;
 	background-color: transparent;
 	position: fixed;
 	top: 0px;
@@ -35,16 +35,16 @@
 	margin-left: -664px;
 }
 
-#U4095_animation
+#U5410_animation
 {
 	width: 1280px;
-	height: 75px;
+	height: 240px;
 	border: none;
 }
 
 #u4626-4
 {
-	z-index: 3;
+	z-index: 2;
 	width: 228px;
 	min-height: 548px;
 	border-style: solid;
@@ -60,7 +60,7 @@
 
 #u4629-4
 {
-	z-index: 7;
+	z-index: 6;
 	width: 228px;
 	min-height: 548px;
 	border-style: solid;
@@ -76,7 +76,7 @@
 
 #u4632-4
 {
-	z-index: 11;
+	z-index: 10;
 	width: 228px;
 	min-height: 548px;
 	border-style: solid;
@@ -92,7 +92,7 @@
 
 #u4635-4
 {
-	z-index: 15;
+	z-index: 14;
 	width: 228px;
 	min-height: 548px;
 	border-style: solid;

@@ -1,7 +1,7 @@
 .version.meet_the_team /* version checker */
 {
-	color: #0000EE;
-	background-color: #705A82;
+	color: #00001E;
+	background-color: #210818;
 }
 
 #muse_css_mq
@@ -31,9 +31,9 @@
 
 #u3681
 {
-	z-index: 2;
+	z-index: 8;
 	width: 1280px;
-	height: 75px;
+	height: 240px;
 	background-color: transparent;
 	position: fixed;
 	top: 0px;
@@ -41,16 +41,16 @@
 	margin-left: -664px;
 }
 
-#U3683_animation
+#U5409_animation
 {
 	width: 1280px;
-	height: 75px;
+	height: 240px;
 	border: none;
 }
 
 #u3745-4
 {
-	z-index: 3;
+	z-index: 2;
 	display: block;
 	vertical-align: top;
 	margin-left: 67px;
@@ -66,7 +66,7 @@
 
 #u3840
 {
-	z-index: 7;
+	z-index: 6;
 	height: 32px;
 	background: transparent url("../images/checker-u3840-fr.png") repeat left top;
 }
@@ -83,13 +83,13 @@
 
 #u3840-bw
 {
-	z-index: 7;
+	z-index: 6;
 	height: 32px;
 }
 
 #u3843
 {
-	z-index: 8;
+	z-index: 7;
 	height: 22px;
 	background: -webkit-gradient(linear, center top, center bottom, from(rgba(0,13,36,0)),color-stop(100%, #000D24));
 	background: -webkit-linear-gradient(top,rgba(0,13,36,0) ,#000D24 100%);
@@ -100,7 +100,7 @@
 
 #u3843-bw
 {
-	z-index: 8;
+	z-index: 7;
 	margin-top: 10px;
 	height: 22px;
 }

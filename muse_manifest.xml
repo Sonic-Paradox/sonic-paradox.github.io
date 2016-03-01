@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.1.0.342" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1456793465472">
+<manifest alg="2" build="2015.1.0.342" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1456796264601">
   <folder name="assets">
     <folder name="col_metromayhem">
       <folder name="edge_includes">
@@ -17,34 +17,34 @@
     </folder>
     <folder name="navbar">
       <folder name="edge_includes">
-        <file name="edge.6.0.0.min.js" crc="3929159849" mt="1456196211000"/>
+        <file name="edge.6.0.0.min.js" crc="3929159849" mt="1456795893000"/>
       </folder>
       <folder name="images">
-        <file name="Poster.png" crc="515728466" mt="1456196211000"/>
-        <file name="Poster2.png" crc="95134154" mt="1456196211000"/>
-        <file name="sp 1.svg" crc="362996411" mt="1456196211000"/>
-        <file name="sp 2.svg" crc="323829064" mt="1456196211000"/>
-        <file name="SP logomain.svg" crc="119003110" mt="1456196211000"/>
-        <file name="topbar.svg" crc="162245559" mt="1456196211000"/>
-        <file name="Poster3.png" crc="3768660576" mt="1456196211000"/>
+        <file name="Poster.png" crc="515728466" mt="1456795893000"/>
+        <file name="Poster2.png" crc="95134154" mt="1456795893000"/>
+        <file name="sp 1.svg" crc="362996411" mt="1456795893000"/>
+        <file name="sp 2.svg" crc="323829064" mt="1456795893000"/>
+        <file name="SP logomain.svg" crc="119003110" mt="1456795893000"/>
+        <file name="topbar.svg" crc="162245559" mt="1456795893000"/>
+        <file name="Poster3.png" crc="3768660576" mt="1456795893000"/>
       </folder>
-      <file name="transparent.png" crc="365509329" mt="1456196211000"/>
-      <file name="navbar_edge.js" crc="4158053357" mt="1456196211000"/>
-      <file name="navbar.html" crc="4181523682" mt="1456196211000"/>
+      <file name="transparent.png" crc="192942458" mt="1456795893000"/>
+      <file name="navbar_edge.js" crc="470034356" mt="1456795893000"/>
+      <file name="navbar.html" crc="407511743" mt="1456795893000"/>
     </folder>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="417455456" ref="index"/>
+    <file name="index.css" crc="411262014" ref="index"/>
     <file name="forum.css" crc="4137932377" ref="forum"/>
-    <file name="projects.css" crc="409245889" ref="projects"/>
+    <file name="projects.css" crc="3820760950" ref="projects"/>
     <file name="downloads.css" crc="4137932377" ref="downloads"/>
     <file name="stream.css" crc="4137932377" ref="stream"/>
-    <file name="meet-the-team.css" crc="4000340610" ref="meet-the-team"/>
+    <file name="meet-the-team.css" crc="505481240" ref="meet-the-team"/>
     <file name="other.css" crc="82793914" ref="other"/>
     <file name="music.css" crc="82793914" ref="music"/>
     <file name="dubs.css" crc="82793914" ref="dubs"/>
-    <file name="animations.css" crc="4278240799" ref="animations"/>
+    <file name="animations.css" crc="491227287" ref="animations"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="409338010" ref="index:projects:stream:forum:downloads:meet-the-team:music:dubs:other:animations"/>
@@ -71,14 +71,14 @@
     <file name="shortsbanner.svg" crc="3820282405" ref="animations"/>
     <file name="shortsbanner_poster_.png" crc="3809302905" ref="animations"/>
   </folder>
-  <file name="index.html" crc="29249020" seo="true" mt="1456783669207" redirect="true"/>
-  <file name="projects.html" crc="126788111" seo="true" mt="1456784855570" redirect="true"/>
+  <file name="index.html" crc="3974055702" seo="true" mt="1456795897242" redirect="true"/>
+  <file name="projects.html" crc="3982978115" seo="true" mt="1456796065990" redirect="true"/>
   <file name="stream.html" crc="266654232" seo="true" mt="1456196828783" redirect="false"/>
   <file name="forum.html" crc="3781838682" seo="true" mt="1456196828785" redirect="false"/>
   <file name="downloads.html" crc="59972907" seo="true" mt="1456196828786" redirect="false"/>
-  <file name="meet-the-team.html" crc="3900159673" seo="true" mt="1456782149511" redirect="true"/>
+  <file name="meet-the-team.html" crc="4271978966" seo="true" mt="1456795983173" redirect="true"/>
   <file name="music.html" crc="3925059371" seo="true" mt="1456196828799" redirect="false"/>
   <file name="dubs.html" crc="533689111" seo="true" mt="1456196828801" redirect="false"/>
   <file name="other.html" crc="4164174880" seo="true" mt="1456196828808" redirect="false"/>
-  <file name="animations.html" crc="4059436188" seo="true" mt="1456793320699" redirect="true"/>
+  <file name="animations.html" crc="528594938" seo="true" mt="1456795897532" redirect="true"/>
 </manifest>
