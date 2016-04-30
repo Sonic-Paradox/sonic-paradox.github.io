@@ -1,9 +1,9 @@
-<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1461986585586">
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1461986637751">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
     <file name="master_a-master.css" crc="321525473" ref="animations:index:other:music:downloads:projects:forum:dubs:meet-the-team:stream"/>
-    <file name="animations.css" crc="344862434" ref="animations"/>
-    <file name="index.css" crc="3777970272" ref="index"/>
+    <file name="animations.css" crc="4262311687" ref="animations"/>
+    <file name="index.css" crc="510521172" ref="index"/>
     <file name="other.css" crc="124020522" ref="other"/>
     <file name="music.css" crc="124020522" ref="music"/>
     <file name="downloads.css" crc="347206337" ref="downloads"/>
@@ -137,13 +137,13 @@
     <file name="shortsbanner.svg" crc="3820282405" ref="animations"/>
     <file name="shortsbanner_poster_.png" crc="3809302905" ref="animations"/>
   </folder>
-  <file name="index.html" crc="209057100" seo="true" mt="1461982155191" redirect="true"/>
+  <file name="index.html" crc="174966646" seo="true" mt="1461986627685" redirect="true"/>
   <file name="projects.html" crc="79971758" seo="true" mt="1461981971170" redirect="true"/>
   <file name="stream.html" crc="339900768" seo="true" mt="1461981971170" redirect="true"/>
   <file name="forum.html" crc="359258735" seo="true" mt="1461981971170" redirect="true"/>
   <file name="downloads.html" crc="3811188524" seo="true" mt="1461981971170" redirect="true"/>
   <file name="meet-the-team.html" crc="3849196328" seo="true" mt="1461981971170" redirect="true"/>
-  <file name="animations.html" crc="283780027" seo="true" mt="1461986527994" redirect="true"/>
+  <file name="animations.html" crc="4031534122" seo="true" mt="1461986618152" redirect="true"/>
   <file name="music.html" crc="4294627046" seo="true" mt="1461981971170" redirect="true"/>
   <file name="dubs.html" crc="210270139" seo="true" mt="1461981971170" redirect="true"/>
   <file name="other.html" crc="3957208700" seo="true" mt="1461981971170" redirect="true"/>
