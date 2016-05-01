@@ -1,7 +1,7 @@
 .version.meet_the_team /* version checker */
 {
-	color: #000009;
-	background-color: #406687;
+	color: #000000;
+	background-color: #4C9B0F;
 }
 
 #muse_css_mq
@@ -104,22 +104,38 @@
 	height: 22px;
 }
 
-#u14739
+#u20604
 {
 	z-index: 9;
-	width: 114px;
-	height: 81px;
-	margin-left: 87px;
-	margin-top: 1052px;
-	position: relative;
+	min-height: 50px;
+	padding-bottom: 2px;
 }
 
-.ie #u14739
+#u20604_align_to_page
 {
-	background-color: #FFFFFF;
-	opacity: 0.01;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
-	filter: alpha(opacity=1);
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 1024px;
+	left: -100px;
+}
+
+#u20605
+{
+	z-index: 10;
+	width: 1024px;
+	min-height: 40px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 10px;
+	left: 100px;
+}
+
+#u20604-bw
+{
+	z-index: 9;
+	min-height: 50px;
+	margin-top: 255px;
 }
 
 .html

@@ -1,7 +1,7 @@
 .version.stream /* version checker */
 {
-	color: #00001C;
-	background-color: #000976;
+	color: #0000FD;
+	background-color: #737FBE;
 }
 
 #muse_css_mq
@@ -25,7 +25,7 @@
 
 #u20050
 {
-	z-index: 5;
+	z-index: 6;
 	width: 1280px;
 	height: 71px;
 	background-color: transparent;
@@ -42,13 +42,6 @@
 	border: none;
 }
 
-#pu19946
-{
-	margin-right: -10000px;
-	margin-top: 105px;
-	width: 72.66%;
-}
-
 #u19946
 {
 	z-index: 2;
@@ -57,25 +50,9 @@
 	border-color: transparent;
 	background-color: transparent;
 	position: relative;
-	width: 100%;
-}
-
-#u14739
-{
-	z-index: 4;
-	height: 81px;
-	margin-top: 612px;
-	position: relative;
-	width: 15.33%;
-	margin-left: 11.7%;
-}
-
-.ie #u14739
-{
-	background-color: #FFFFFF;
-	opacity: 0.01;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
-	filter: alpha(opacity=1);
+	margin-right: -10000px;
+	margin-top: 105px;
+	width: 72.66%;
 }
 
 #u19950
@@ -92,6 +69,47 @@
 	left: 72.66%;
 }
 
+#u20604
+{
+	z-index: 4;
+	min-height: 50px;
+	padding-bottom: 2px;
+}
+
+#u20604_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#u20605
+{
+	z-index: 5;
+	width: 1024px;
+	min-height: 40px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 10px;
+}
+
+.js body
+{
+	visibility: hidden;
+}
+
+.js body.initialized
+{
+	visibility: visible;
+}
+
+#u20604-bw
+{
+	z-index: 4;
+	min-height: 50px;
+	margin-top: 10px;
+}
+
 .html
 {
 	background-color: #000D24;
@@ -103,4 +121,8 @@ body
 	min-width: 1024px;
 }
 
+.verticalspacer
+{
+	min-height: 529px;
+}
 
