@@ -1,7 +1,7 @@
 .version.projects /* version checker */
 {
 	color: #00001A;
-	background-color: #B8DC35;
+	background-color: #E6E19B;
 }
 
 #muse_css_mq
@@ -13,7 +13,7 @@
 {
 	z-index: 1;
 	width: 1024px;
-	min-height: 960px;
+	min-height: 800px;
 	background-image: none;
 	border-width: 0px;
 	border-color: #000000;
@@ -162,6 +162,6 @@ body
 
 .verticalspacer
 {
-	min-height: 227px;
+	min-height: 67px;
 }
 

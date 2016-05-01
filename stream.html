@@ -3,18 +3,17 @@
  <head>
 
   <script type="text/javascript">
-   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.watch.js", "stream.css"], "outOfDate":[]};
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.watch.js", "jquery.scrolleffects.js", "stream.css"], "outOfDate":[]};
 </script>
   
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
   <meta name="generator" content="2015.1.2.344"/>
   <title>Stream</title>
   <meta http-equiv="X-UA-Compatible" content="chrome=IE8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?131700929"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?4064478329"/>
-  <link rel="stylesheet" type="text/css" href="css/stream.css?4252204990" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?25153401"/>
+  <link rel="stylesheet" type="text/css" href="css/stream.css?499383853" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
@@ -22,7 +21,7 @@
    </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- group -->
+  <div class="clearfix" id="page"><!-- group -->
    <div id="u20050"><!-- animation -->
     <iframe id="U20166_animation" src="assets/navbar/navbar.html" scrolling="no" class="animationContainer an_invi"></iframe>
    </div>
@@ -65,6 +64,7 @@
   <script src="scripts/museutils.js?3790713428" type="text/javascript"></script>
   <script src="scripts/whatinput.js?84559013" type="text/javascript"></script>
   <script src="scripts/jquery.watch.js?4244854265" type="text/javascript"></script>
+  <script src="scripts/jquery.scrolleffects.js?4219894366" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    $(document).ready(function() { try {
@@ -77,6 +77,7 @@ Muse.Utils.initializeAnimations();/* animations */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
+$('#u20050').registerEdgeAnimateScrollEffect([{"play":false,"in":[-Infinity,47]},{"play":80,"in":[47,Infinity]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 } catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});

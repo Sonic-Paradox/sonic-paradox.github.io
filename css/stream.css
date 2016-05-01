@@ -1,7 +1,7 @@
 .version.stream /* version checker */
 {
-	color: #0000FD;
-	background-color: #737FBE;
+	color: #00001D;
+	background-color: #C3FE2D;
 }
 
 #muse_css_mq
@@ -12,13 +12,12 @@
 #page
 {
 	z-index: 1;
-	min-height: 1224px;
+	width: 1024px;
+	min-height: 732px;
 	background-image: none;
 	border-width: 0px;
 	border-color: #000000;
 	background-color: transparent;
-	width: 100%;
-	max-width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -45,6 +44,7 @@
 #u19946
 {
 	z-index: 2;
+	width: 744px;
 	min-height: 504px;
 	border-width: 0px;
 	border-color: transparent;
@@ -52,12 +52,12 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 105px;
-	width: 72.66%;
 }
 
 #u19950
 {
 	z-index: 3;
+	width: 280px;
 	min-height: 524px;
 	border-width: 0px;
 	border-color: transparent;
@@ -65,8 +65,7 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 105px;
-	width: 27.35%;
-	left: 72.66%;
+	left: 744px;
 }
 
 #u20604
@@ -81,6 +80,8 @@
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
+	width: 1024px;
+	left: -100px;
 }
 
 #u20605
@@ -91,6 +92,7 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 10px;
+	left: 100px;
 }
 
 .js body
@@ -123,6 +125,6 @@ body
 
 .verticalspacer
 {
-	min-height: 529px;
+	min-height: 37px;
 }
 
