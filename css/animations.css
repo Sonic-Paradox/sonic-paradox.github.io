@@ -1,7 +1,11 @@
+/*
+
+*/
+
 .version.animations /* version checker */
 {
-	color: #0000E5;
-	background-color: #F0AEB7;
+	color: #0000E9;
+	background-color: #AD1183;
 }
 
 #muse_css_mq
@@ -35,7 +39,7 @@
 	margin-left: -664px;
 }
 
-#U20167_animation
+#U21227_animation
 {
 	width: 1280px;
 	height: 71px;
@@ -62,8 +66,15 @@
 #u4487-4
 {
 	z-index: 13;
-	display: block;
-	vertical-align: top;
+	width: 641px;
+	min-height: 58px;
+	border-color: #FFFFFF;
+	background-color: transparent;
+	line-height: 58px;
+	color: #FFFFFF;
+	font-size: 48px;
+	font-family: '__NiseSegaSonic_5';
+	font-weight: 400;
 	margin-bottom: -7px;
 	position: relative;
 	margin-right: -10000px;
@@ -74,8 +85,14 @@
 #u4488-4
 {
 	z-index: 17;
-	position: relative;
 	width: 210px;
+	min-height: 18px;
+	border-color: #FFFFFF;
+	background-color: transparent;
+	color: #FFFFFF;
+	font-family: '__NiseSegaSonic_5';
+	font-weight: 400;
+	position: relative;
 	margin-right: -10000px;
 	margin-top: 35px;
 	left: 894px;
@@ -353,8 +370,15 @@
 #u4641-4
 {
 	z-index: 25;
-	display: block;
-	vertical-align: top;
+	width: 641px;
+	min-height: 63px;
+	border-color: #FFFFFF;
+	background-color: transparent;
+	line-height: 58px;
+	color: #FFFFFF;
+	font-size: 48px;
+	font-family: '__NiseSegaSonic_5';
+	font-weight: 400;
 	margin-bottom: -12px;
 	position: relative;
 	margin-right: -10000px;
@@ -365,17 +389,17 @@
 #u4642-4
 {
 	z-index: 29;
-	position: relative;
 	width: 172px;
+	min-height: 17px;
+	border-color: #FFFFFF;
+	background-color: transparent;
+	color: #FFFFFF;
+	font-family: '__NiseSegaSonic_5';
+	font-weight: 400;
+	position: relative;
 	margin-right: -10000px;
 	margin-top: 37px;
 	left: 932px;
-}
-
-#u4488-4_img,#u4642-4_img
-{
-	display: block;
-	vertical-align: top;
 }
 
 #u20153-bw
@@ -825,5 +849,14 @@ body
 {
 	position: relative;
 	min-width: 1024px;
+}
+
+@font-face
+{
+	font-family: '__NiseSegaSonic_5';
+	src: url('../fonts/nisesegasonic-webfont.eot');
+	src: local('☺'), url('../fonts/nisesegasonic-webfont.woff') format('woff'), url('../fonts/nisesegasonic-webfont.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
 }
 

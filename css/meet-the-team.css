@@ -1,7 +1,11 @@
+/*
+
+*/
+
 .version.meet_the_team /* version checker */
 {
-	color: #000009;
-	background-color: #1AA668;
+	color: #000005;
+	background-color: #8EB401;
 }
 
 #muse_css_mq
@@ -40,7 +44,7 @@
 	margin-left: -664px;
 }
 
-#U20164_animation
+#U21230_animation
 {
 	width: 1280px;
 	height: 71px;
@@ -62,13 +66,20 @@
 #u21097-4
 {
 	z-index: 4;
-	display: block;
-	vertical-align: top;
+	width: 641px;
+	min-height: 63px;
+	border-color: #FFFFFF;
+	background-color: transparent;
+	line-height: 58px;
+	color: #FFFFFF;
+	font-size: 48px;
+	font-family: '__NiseSegaSonic_5';
+	font-weight: 400;
 	margin-bottom: -12px;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 6px;
-	left: 118px;
+	left: 120px;
 }
 
 .js body
@@ -189,5 +200,14 @@ body
 {
 	position: relative;
 	min-width: 1024px;
+}
+
+@font-face
+{
+	font-family: '__NiseSegaSonic_5';
+	src: url('../fonts/nisesegasonic-webfont.eot');
+	src: local('☺'), url('../fonts/nisesegasonic-webfont.woff') format('woff'), url('../fonts/nisesegasonic-webfont.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
 }
 
