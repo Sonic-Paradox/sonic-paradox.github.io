@@ -1,7 +1,7 @@
 .version.stream /* version checker */
 {
-	color: #000014;
-	background-color: #B1F2C1;
+	color: #00001C;
+	background-color: #000976;
 }
 
 #muse_css_mq
@@ -12,25 +12,62 @@
 #page
 {
 	z-index: 1;
-	min-height: 0px;
+	min-height: 1224px;
 	background-image: none;
 	border-width: 0px;
 	border-color: #000000;
 	background-color: transparent;
-	padding-top: 1245px;
 	width: 100%;
 	max-width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#u14739
+#u20050
+{
+	z-index: 5;
+	width: 1280px;
+	height: 71px;
+	background-color: transparent;
+	position: fixed;
+	top: -1px;
+	left: 50%;
+	margin-left: -664px;
+}
+
+#U20166_animation
+{
+	width: 1280px;
+	height: 71px;
+	border: none;
+}
+
+#pu19946
+{
+	margin-right: -10000px;
+	margin-top: 105px;
+	width: 72.66%;
+}
+
+#u19946
 {
 	z-index: 2;
-	height: 81px;
+	min-height: 504px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
 	position: relative;
-	width: 11.14%;
-	margin-left: 8.5%;
+	width: 100%;
+}
+
+#u14739
+{
+	z-index: 4;
+	height: 81px;
+	margin-top: 612px;
+	position: relative;
+	width: 15.33%;
+	margin-left: 11.7%;
 }
 
 .ie #u14739
@@ -39,6 +76,20 @@
 	opacity: 0.01;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
 	filter: alpha(opacity=1);
+}
+
+#u19950
+{
+	z-index: 3;
+	min-height: 524px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 105px;
+	width: 27.35%;
+	left: 72.66%;
 }
 
 .html
@@ -51,4 +102,5 @@ body
 	position: relative;
 	min-width: 1024px;
 }
+
 

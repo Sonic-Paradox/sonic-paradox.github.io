@@ -1,32 +1,34 @@
-<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1461986637751">
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1462067458390">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
     <file name="master_a-master.css" crc="321525473" ref="animations:index:other:music:downloads:projects:forum:dubs:meet-the-team:stream"/>
-    <file name="animations.css" crc="4262311687" ref="animations"/>
-    <file name="index.css" crc="510521172" ref="index"/>
+    <file name="animations.css" crc="435133218" ref="animations"/>
+    <file name="index.css" crc="4187217948" ref="index"/>
     <file name="other.css" crc="124020522" ref="other"/>
     <file name="music.css" crc="124020522" ref="music"/>
     <file name="downloads.css" crc="347206337" ref="downloads"/>
-    <file name="projects.css" crc="450273701" ref="projects"/>
+    <file name="projects.css" crc="401542232" ref="projects"/>
     <file name="forum.css" crc="347206337" ref="forum"/>
     <file name="dubs.css" crc="124020522" ref="dubs"/>
-    <file name="meet-the-team.css" crc="4273545734" ref="meet-the-team"/>
-    <file name="stream.css" crc="347206337" ref="stream"/>
+    <file name="meet-the-team.css" crc="155215495" ref="meet-the-team"/>
+    <file name="stream.css" crc="469764470" ref="stream"/>
   </folder>
   <folder name="assets">
     <folder name="gal_sonicshorts">
       <folder name="edge_includes">
-        <file name="edge.6.0.0.min.js" crc="3929159849" mt="1461986521000"/>
+        <file name="edge.6.0.0.min.js" crc="3929159849" mt="1462067351000"/>
       </folder>
       <folder name="images">
-        <file name="icon.png" crc="3778892992" mt="1461986521000"/>
-        <file name="Poster.png" crc="3778892992" mt="1461986521000"/>
-        <file name="shorts1.png" crc="130817565" mt="1461986521000"/>
-        <file name="newgrounds.svg" crc="389359295" mt="1461986521000"/>
-        <file name="youtube.svg" crc="81191171" mt="1461986521000"/>
+        <file name="icon.png" crc="3778892992" mt="1462067351000"/>
+        <file name="Poster.png" crc="3778892992" mt="1462067351000"/>
+        <file name="shorts1.png" crc="130817565" mt="1462067351000"/>
+        <file name="newgrounds.svg" crc="389359295" mt="1462067351000"/>
+        <file name="youtube.svg" crc="81191171" mt="1462067351000"/>
+        <file name="shorts2proto.png" crc="4033737897" mt="1462067351000"/>
+        <file name="shorts2proto2.png" crc="479167647" mt="1462067351000"/>
       </folder>
-      <file name="gal_sonicshorts_edge.js" crc="3967726311" mt="1461986521000"/>
-      <file name="gal_sonicshorts.html" crc="72698238" mt="1461986521000"/>
+      <file name="gal_sonicshorts_edge.js" crc="346224857" mt="1462067351000"/>
+      <file name="gal_sonicshorts.html" crc="72698238" mt="1462067351000"/>
     </folder>
     <folder name="col_robotnikshorts">
       <folder name="edge_includes">
@@ -96,20 +98,21 @@
     </folder>
     <folder name="navbar">
       <folder name="edge_includes">
-        <file name="edge.6.0.0.min.js" crc="3929159849" mt="1456795972000"/>
+        <file name="edge.6.0.0.min.js" crc="3929159849" mt="1462067235000"/>
       </folder>
       <folder name="images">
-        <file name="Poster.png" crc="515728466" mt="1456795972000"/>
-        <file name="Poster2.png" crc="95134154" mt="1456795972000"/>
-        <file name="Poster3.png" crc="3768660576" mt="1456795972000"/>
-        <file name="sp 1.svg" crc="362996411" mt="1456795972000"/>
-        <file name="sp 2.svg" crc="323829064" mt="1456795972000"/>
-        <file name="SP logomain.svg" crc="119003110" mt="1456795972000"/>
-        <file name="topbar.svg" crc="162245559" mt="1456795972000"/>
+        <file name="Poster.png" crc="515728466" mt="1462067235000"/>
+        <file name="Poster2.png" crc="95134154" mt="1462067235000"/>
+        <file name="Poster3.png" crc="3768660576" mt="1462067235000"/>
+        <file name="sp 1.svg" crc="362996411" mt="1462067235000"/>
+        <file name="sp 2.svg" crc="323829064" mt="1462067235000"/>
+        <file name="SP logomain.svg" crc="119003110" mt="1462067235000"/>
+        <file name="topbar.svg" crc="162245559" mt="1462067235000"/>
+        <file name="Poster4.png" crc="14842516" mt="1462067235000"/>
       </folder>
-      <file name="transparent.png" crc="192942458" mt="1456795972000"/>
-      <file name="navbar_edge.js" crc="470034356" mt="1456795972000"/>
-      <file name="navbar.html" crc="407511743" mt="1456795972000"/>
+      <file name="transparent.png" crc="433391655" mt="1462067235000"/>
+      <file name="navbar_edge.js" crc="3938249788" mt="1462067235000"/>
+      <file name="navbar.html" crc="4009415563" mt="1462067235000"/>
     </folder>
   </folder>
   <folder name="scripts">
@@ -118,6 +121,7 @@
     <file name="whatinput.js" crc="84559013" ref="index:projects:stream:forum:downloads:meet-the-team:animations:music:dubs:other"/>
     <file name="jquery.watch.js" crc="4244854265" ref="index:projects:stream:forum:downloads:meet-the-team:animations:music:dubs:other"/>
     <file name="jquery.scrolleffects.js" crc="4219894366" ref="index:projects:meet-the-team:animations"/>
+    <file name="pie.js" crc="3827607177" ref="animations"/>
   </folder>
   <folder name="images">
     <file name="landing_0012_group 1.png" crc="4119957550" seo="true" ref="index"/>
@@ -136,14 +140,19 @@
     <file name="u4476-grad.png" crc="4146732841" ref="animations"/>
     <file name="shortsbanner.svg" crc="3820282405" ref="animations"/>
     <file name="shortsbanner_poster_.png" crc="3809302905" ref="animations"/>
+    <file name="checker-u20147-fr.png" crc="363724825" ref="animations"/>
+    <file name="u4487-4.png" crc="3870269839" ref="animations"/>
+    <file name="u4488-4.png" crc="4144344346" ref="animations"/>
+    <file name="u4641-4.png" crc="4055310037" ref="animations"/>
+    <file name="u4642-4.png" crc="379148893" ref="animations"/>
   </folder>
-  <file name="index.html" crc="174966646" seo="true" mt="1461986627685" redirect="true"/>
-  <file name="projects.html" crc="79971758" seo="true" mt="1461981971170" redirect="true"/>
-  <file name="stream.html" crc="339900768" seo="true" mt="1461981971170" redirect="true"/>
+  <file name="index.html" crc="353145775" seo="true" mt="1462067448393" redirect="true"/>
+  <file name="projects.html" crc="27264760" seo="true" mt="1462067448560" redirect="true"/>
+  <file name="stream.html" crc="256599346" seo="true" mt="1462067448643" redirect="true"/>
   <file name="forum.html" crc="359258735" seo="true" mt="1461981971170" redirect="true"/>
   <file name="downloads.html" crc="3811188524" seo="true" mt="1461981971170" redirect="true"/>
-  <file name="meet-the-team.html" crc="3849196328" seo="true" mt="1461981971170" redirect="true"/>
-  <file name="animations.html" crc="4031534122" seo="true" mt="1461986618152" redirect="true"/>
+  <file name="meet-the-team.html" crc="254790169" seo="true" mt="1462067448479" redirect="true"/>
+  <file name="animations.html" crc="342940131" seo="true" mt="1462067448725" redirect="true"/>
   <file name="music.html" crc="4294627046" seo="true" mt="1461981971170" redirect="true"/>
   <file name="dubs.html" crc="210270139" seo="true" mt="1461981971170" redirect="true"/>
   <file name="other.html" crc="3957208700" seo="true" mt="1461981971170" redirect="true"/>

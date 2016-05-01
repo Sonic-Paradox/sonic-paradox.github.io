@@ -1,7 +1,7 @@
 .version.meet_the_team /* version checker */
 {
-	color: #0000FE;
-	background-color: #B92206;
+	color: #000009;
+	background-color: #406687;
 }
 
 #muse_css_mq
@@ -32,7 +32,7 @@
 {
 	z-index: 8;
 	width: 1280px;
-	height: 240px;
+	height: 71px;
 	background-color: transparent;
 	position: fixed;
 	top: 0px;
@@ -40,10 +40,10 @@
 	margin-left: -664px;
 }
 
-#U5657_animation
+#U20164_animation
 {
 	width: 1280px;
-	height: 240px;
+	height: 71px;
 	border: none;
 }
 

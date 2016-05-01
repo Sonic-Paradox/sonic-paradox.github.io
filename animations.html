@@ -13,7 +13,7 @@
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?131700929"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-master.css?321525473"/>
-  <link rel="stylesheet" type="text/css" href="css/animations.css?4262311687" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/animations.css?435133218" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
@@ -24,14 +24,16 @@
   <div class="clearfix" id="page"><!-- column -->
    <div class="position_content" id="page_position_content">
     <div class="pinned-colelem" id="u19600"><!-- animation -->
-     <iframe id="U19602_animation" src="assets/navbar/navbar.html" scrolling="no" class="animationContainer an_invi"></iframe>
+     <iframe id="U20167_animation" src="assets/navbar/navbar.html" scrolling="no" class="animationContainer an_invi"></iframe>
     </div>
     <a class="anchor_item colelem" id="top"></a>
-    <div class="clearfix colelem" id="pu4487-4"><!-- group -->
-     <div class="clearfix grpelem" id="u4487-4"><!-- content -->
-      <p>Collab projects header</p>
+    <div class="browser_width colelem" id="u20147-bw">
+     <div class="shadow rgba-background" id="u20147"><!-- group -->
+      <div class="clearfix" id="u20147_align_to_page">
+       <img class="grpelem" id="u4487-4" alt="COLLABORATIONS" width="641" height="58" src="images/u4487-4.png"/><!-- rasterized frame -->
+       <a class="nonblock nontext anim_swing grpelem" id="u4488-4" href="animations.html#soloanim"><!-- rasterized frame --><img id="u4488-4_img" alt="Go to Solo Works &gt;" width="210" height="18" src="images/u4488-4.png"/></a>
+      </div>
      </div>
-     <a class="nonblock nontext anim_swing clearfix grpelem" id="u4488-4" href="animations.html#soloanim"><!-- content --><p>button to solo projects anchor</p></a>
     </div>
     <div class="clearfix colelem" id="u4469"><!-- column -->
      <div class="clearfix colelem" id="u4470"><!-- group -->
@@ -50,7 +52,7 @@
      </div>
     </div>
     <div class="colelem" id="u16692"><!-- animation -->
-     <iframe id="U19736_animation" src="assets/gal_sonicshorts/gal_sonicshorts.html" scrolling="no" class="animationContainer an_invi"></iframe>
+     <iframe id="U20157_animation" src="assets/gal_sonicshorts/gal_sonicshorts.html" scrolling="no" class="animationContainer an_invi"></iframe>
     </div>
     <div class="clearfix colelem" id="pu16452"><!-- group -->
      <div class="grpelem" id="u16452"><!-- animation -->
@@ -77,12 +79,16 @@
       <iframe id="U16462_animation" src="assets/col_knuxbriefs/col_knuxbriefs.html" scrolling="no" class="animationContainer an_invi"></iframe>
      </div>
     </div>
-    <div class="clearfix colelem" id="pu4641-4"><!-- group -->
-     <div class="clearfix grpelem" id="u4641-4"><!-- content -->
-      <p>solo projects header</p>
+    <div class="browser_width colelem" id="u20153-bw">
+     <div class="shadow rgba-background" id="u20153"><!-- group -->
+      <div class="clearfix" id="u20153_align_to_page">
+       <div class="clearfix grpelem" id="psoloanim"><!-- column -->
+        <a class="anchor_item colelem" id="soloanim"></a>
+        <img class="colelem" id="u4641-4" alt="Solo Works" width="641" height="63" src="images/u4641-4.png"/><!-- rasterized frame -->
+       </div>
+       <a class="nonblock nontext anim_swing grpelem" id="u4642-4" href="animations.html#top"><!-- rasterized frame --><img id="u4642-4_img" alt="&lt; Return to top" width="172" height="17" src="images/u4642-4.png"/></a>
+      </div>
      </div>
-     <a class="nonblock nontext anim_swing clearfix grpelem" id="u4642-4" href="animations.html#top"><!-- content --><p>button to page head anchor</p></a>
-     <a class="anchor_item grpelem" id="soloanim"></a>
     </div>
     <div class="clearfix colelem" id="pu4673-4"><!-- group -->
      <div class="clearfix grpelem" id="u4673-4"><!-- content -->
@@ -140,6 +146,8 @@ typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw E
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.initializeAnimations();/* animations */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
 $('#u19600').registerEdgeAnimateScrollEffect([{"play":false,"in":[-Infinity,47]},{"play":80,"in":[47,Infinity]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
