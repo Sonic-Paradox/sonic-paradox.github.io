@@ -4,8 +4,8 @@
 
 .version.animations /* version checker */
 {
-	color: #0000E9;
-	background-color: #AD1183;
+	color: #00000B;
+	background-color: #13A996;
 }
 
 #muse_css_mq
@@ -17,14 +17,19 @@
 {
 	z-index: 1;
 	width: 1024px;
-	min-height: 499.9000000000001px;
+	min-height: 3523px;
 	background-image: none;
 	border-width: 0px;
 	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: -1px;
+	width: 0.01px;/* should not cover content below */
 }
 
 #u19600
@@ -46,21 +51,27 @@
 	border: none;
 }
 
-#top
-{
-	position: relative;
-}
-
 #u20147
 {
-	z-index: 3;
-	min-height: 57px;
+	z-index: 2;
+	min-height: 178px;
 	-pie-box-shadow: 6px 6px 16px #7F7F7F;
 	box-shadow: 6px 6px 16px rgba(0,0,0,0.5);
 	border-style: solid;
 	border-color: #FFFFFF;
 	background-color: #002450;
 	border-width: 0px 0px 1px;
+}
+
+#ptop
+{
+	width: 0.01px;
+	margin: 1px -10000px -7px 100px;
+}
+
+#top
+{
+	position: relative;
 }
 
 #u4487-4
@@ -75,11 +86,9 @@
 	font-size: 48px;
 	font-family: '__NiseSegaSonic_5';
 	font-weight: 400;
-	margin-bottom: -7px;
+	margin-left: 20px;
+	margin-top: 108px;
 	position: relative;
-	margin-right: -10000px;
-	margin-top: 6px;
-	left: 120px;
 }
 
 #u4488-4
@@ -94,7 +103,7 @@
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 35px;
+	margin-top: 156px;
 	left: 894px;
 }
 
@@ -110,9 +119,8 @@
 
 #u20147-bw
 {
-	z-index: 3;
-	min-height: 57px;
-	margin-top: 102px;
+	z-index: 2;
+	min-height: 178px;
 }
 
 #u4469
@@ -194,9 +202,9 @@
 	display: block;
 }
 
-#page_position_content,#pu4472
+#pu4472
 {
-	width: 0.01px;/* should not cover content below */
+	width: 0.01px;
 }
 
 #u4472
@@ -357,8 +365,8 @@
 
 #u20153
 {
-	z-index: 2;
-	min-height: 57px;
+	z-index: 3;
+	min-height: 93px;
 	-pie-box-shadow: 6px 6px 16px #7F7F7F;
 	box-shadow: 6px 6px 16px rgba(0,0,0,0.5);
 	border-style: solid;
@@ -382,7 +390,7 @@
 	margin-bottom: -12px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 6px;
+	margin-top: 42px;
 	left: 120px;
 }
 
@@ -398,15 +406,15 @@
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 37px;
+	margin-top: 73px;
 	left: 932px;
 }
 
 #u20153-bw
 {
-	z-index: 2;
-	min-height: 57px;
-	margin-top: 60px;
+	z-index: 3;
+	min-height: 93px;
+	margin-top: 24px;
 }
 
 #pu4673-4
@@ -837,7 +845,7 @@
 {
 	z-index: 137;
 	min-height: 50px;
-	margin-top: 11px;
+	margin-top: 81px;
 }
 
 .html

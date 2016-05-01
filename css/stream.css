@@ -1,7 +1,11 @@
+/*
+
+*/
+
 .version.stream /* version checker */
 {
-	color: #0000E0;
-	background-color: #CFE12B;
+	color: #000016;
+	background-color: #CC386B;
 }
 
 #muse_css_mq
@@ -13,7 +17,7 @@
 {
 	z-index: 1;
 	width: 1024px;
-	min-height: 732px;
+	min-height: 826px;
 	background-image: none;
 	border-width: 0px;
 	border-color: #000000;
@@ -22,9 +26,14 @@
 	margin-right: auto;
 }
 
+#page_position_content
+{
+	width: 0.01px;/* should not cover content below */
+}
+
 #u20050
 {
-	z-index: 6;
+	z-index: 11;
 	width: 1280px;
 	height: 71px;
 	background-color: transparent;
@@ -41,58 +50,35 @@
 	border: none;
 }
 
-#u19946
-{
-	z-index: 2;
-	width: 744px;
-	min-height: 504px;
-	border-width: 0px;
-	border-color: transparent;
-	background-color: transparent;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 105px;
-}
-
-#u19950
-{
-	z-index: 3;
-	width: 280px;
-	min-height: 524px;
-	border-width: 0px;
-	border-color: transparent;
-	background-color: transparent;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 105px;
-	left: 744px;
-}
-
-#u20604
+#u21703
 {
 	z-index: 4;
-	min-height: 50px;
-	padding-bottom: 2px;
+	min-height: 143px;
+	-pie-box-shadow: 6px 6px 16px #7F7F7F;
+	box-shadow: 6px 6px 16px rgba(0,0,0,0.5);
+	border-style: solid;
+	border-color: #FFFFFF;
+	background-color: #002450;
+	border-width: 0px 0px 1px;
 }
 
-#u20604_align_to_page
-{
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
-	width: 1024px;
-	left: -100px;
-}
-
-#u20605
+#u21704-4
 {
 	z-index: 5;
-	width: 1024px;
-	min-height: 40px;
+	width: 641px;
+	min-height: 63px;
+	border-color: #FFFFFF;
+	background-color: transparent;
+	line-height: 58px;
+	color: #FFFFFF;
+	font-size: 48px;
+	font-family: '__NiseSegaSonic_5';
+	font-weight: 400;
+	margin-bottom: -12px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 10px;
-	left: 100px;
+	margin-top: 92px;
+	left: 120px;
 }
 
 .js body
@@ -105,11 +91,75 @@
 	visibility: visible;
 }
 
-#u20604-bw
+#u21703-bw
 {
 	z-index: 4;
+	min-height: 143px;
+}
+
+#pu19946
+{
+	width: 0.01px;
+	margin-top: 32px;
+}
+
+#u19946
+{
+	z-index: 2;
+	width: 744px;
+	min-height: 504px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u19950
+{
+	z-index: 3;
+	width: 280px;
+	min-height: 524px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	left: 744px;
+}
+
+#u20604
+{
+	z-index: 9;
 	min-height: 50px;
+	padding-bottom: 2px;
+}
+
+#u21703_align_to_page,#u20604_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 1024px;
+	left: -100px;
+}
+
+#u20605
+{
+	z-index: 10;
+	width: 1024px;
+	min-height: 40px;
+	position: relative;
+	margin-right: -10000px;
 	margin-top: 10px;
+	left: 100px;
+}
+
+#u20604-bw
+{
+	z-index: 9;
+	min-height: 50px;
+	margin-top: 70px;
 }
 
 .html
@@ -123,8 +173,12 @@ body
 	min-width: 1024px;
 }
 
-.verticalspacer
+@font-face
 {
-	min-height: 37px;
+	font-family: '__NiseSegaSonic_5';
+	src: url('../fonts/nisesegasonic-webfont.eot');
+	src: local('☺'), url('../fonts/nisesegasonic-webfont.woff') format('woff'), url('../fonts/nisesegasonic-webfont.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
 }
 
