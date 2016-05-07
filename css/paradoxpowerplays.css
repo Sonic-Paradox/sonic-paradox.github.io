@@ -4,8 +4,8 @@
 
 .version.paradoxpowerplays /* version checker */
 {
-	color: #0000E9;
-	background-color: #4D755F;
+	color: #0000E3;
+	background-color: #763612;
 }
 
 #page
@@ -91,8 +91,8 @@
 	-pie-box-shadow: none;
 	box-shadow: none;
 	background-color: transparent;
-	line-height: 104px;
 	color: #FFFFFF;
+	line-height: 104px;
 	font-size: 87px;
 	font-family: '__NiseSegaSonic_5';
 	font-weight: 400;

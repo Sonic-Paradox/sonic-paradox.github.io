@@ -4,13 +4,8 @@
 
 .version.stream /* version checker */
 {
-	color: #000016;
-	background-color: #CC386B;
-}
-
-#muse_css_mq
-{
-	background-color: #FFFFFF;
+	color: #00000C;
+	background-color: #8D05E8;
 }
 
 #page
@@ -69,8 +64,8 @@
 	min-height: 63px;
 	border-color: #FFFFFF;
 	background-color: transparent;
-	line-height: 58px;
 	color: #FFFFFF;
+	line-height: 58px;
 	font-size: 48px;
 	font-family: '__NiseSegaSonic_5';
 	font-weight: 400;
@@ -162,9 +157,9 @@
 	margin-top: 70px;
 }
 
-.html
+#muse_css_mq,.html
 {
-	background-color: #000D24;
+	background-color: #FFFFFF;
 }
 
 body

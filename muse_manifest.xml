@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1462075166334">
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="sonic-paradox.github.io" resolutions="1x" timestamp="1462583207500">
   <folder name="fonts">
     <file name="nisesegasonic-webfont.woff" crc="295335045"/>
     <file name="nisesegasonic-webfont.eot" crc="420844723"/>
@@ -7,16 +7,16 @@
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
     <file name="master_a-master.css" crc="25153401" ref="animations:index:other:music:projects:forum:dubs:meet-the-team:stream:paradoxpowerplays"/>
-    <file name="animations.css" crc="185837974" ref="animations"/>
+    <file name="animations.css" crc="4078910622" ref="animations"/>
     <file name="index.css" crc="3850367400" ref="index"/>
-    <file name="other.css" crc="3887490467" ref="other"/>
-    <file name="music.css" crc="3887490467" ref="music"/>
+    <file name="other.css" crc="3931349200" ref="other"/>
+    <file name="music.css" crc="316475503" ref="music"/>
     <file name="projects.css" crc="495865839" ref="projects"/>
     <file name="forum.css" crc="3901713715" ref="forum"/>
-    <file name="dubs.css" crc="3887490467" ref="dubs"/>
-    <file name="meet-the-team.css" crc="419961725" ref="meet-the-team"/>
-    <file name="stream.css" crc="382482539" ref="stream"/>
-    <file name="paradoxpowerplays.css" crc="3914167647" ref="paradoxpowerplays"/>
+    <file name="dubs.css" crc="4216758039" ref="dubs"/>
+    <file name="meet-the-team.css" crc="3900655065" ref="meet-the-team"/>
+    <file name="stream.css" crc="210568680" ref="stream"/>
+    <file name="paradoxpowerplays.css" crc="3816175122" ref="paradoxpowerplays"/>
   </folder>
   <folder name="assets">
     <folder name="gal_sonicshorts">
@@ -125,8 +125,8 @@
     <file name="museutils.js" crc="3790713428" ref="index:projects:stream:forum:meet-the-team:animations:music:dubs:other:paradoxpowerplays"/>
     <file name="whatinput.js" crc="84559013" ref="index:projects:stream:forum:meet-the-team:animations:music:dubs:other:paradoxpowerplays"/>
     <file name="jquery.watch.js" crc="4244854265" ref="index:projects:stream:forum:meet-the-team:animations:music:dubs:other:paradoxpowerplays"/>
-    <file name="jquery.scrolleffects.js" crc="4219894366" ref="index:projects:meet-the-team:animations:stream:paradoxpowerplays"/>
-    <file name="pie.js" crc="3827607177" ref="animations:index:meet-the-team:paradoxpowerplays:stream"/>
+    <file name="jquery.scrolleffects.js" crc="4219894366" ref="index:projects:meet-the-team:animations:stream:paradoxpowerplays:music:dubs:other"/>
+    <file name="pie.js" crc="3827607177" ref="animations:index:meet-the-team:paradoxpowerplays:stream:music:dubs:other"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="3918880840" ref="paradoxpowerplays:meet-the-team"/>
   </folder>
   <folder name="images">
@@ -161,15 +161,18 @@
     <file name="lauren.jpg" crc="4164783097" ref="meet-the-team"/>
     <file name="chrisrws.jpg" crc="391608043" ref="meet-the-team"/>
     <file name="speedyspieks.png" crc="4062662726" ref="meet-the-team"/>
+    <file name="avatar-135292.gif" crc="281275326" ref="meet-the-team"/>
+    <file name="pasted image 63x64.jpg" crc="4280152402" seo="true" ref="meet-the-team"/>
+    <file name="pasted image 120x120.jpg" crc="3962204767" seo="true" ref="meet-the-team"/>
   </folder>
   <file name="index.html" crc="3865539389" seo="true" mt="1462073058075" redirect="true"/>
   <file name="projects.html" crc="501564715" seo="true" mt="1462072168037" redirect="true"/>
-  <file name="stream.html" crc="331992008" seo="true" mt="1462075053056" redirect="true"/>
+  <file name="stream.html" crc="3923017407" seo="true" mt="1462075342788" redirect="true"/>
   <file name="forum.html" crc="91738105" seo="true" mt="1462069153443" redirect="true"/>
-  <file name="meet-the-team.html" crc="330455416" seo="true" mt="1462075164723" redirect="true"/>
-  <file name="animations.html" crc="392851785" seo="true" mt="1462075149430" redirect="true"/>
-  <file name="music.html" crc="391142824" seo="true" mt="1462069153443" redirect="true"/>
-  <file name="dubs.html" crc="3770350449" seo="true" mt="1462069153443" redirect="true"/>
-  <file name="other.html" crc="329103528" seo="true" mt="1462069153443" redirect="true"/>
-  <file name="paradoxpowerplays.html" crc="442639951" seo="true" mt="1462073154264" redirect="true"/>
+  <file name="meet-the-team.html" crc="3925452716" seo="true" mt="1462583196911" redirect="true"/>
+  <file name="animations.html" crc="494699154" seo="true" mt="1462131217641" redirect="true"/>
+  <file name="music.html" crc="4015499112" seo="true" mt="1462131248892" redirect="true"/>
+  <file name="dubs.html" crc="3910601203" seo="true" mt="1462131257184" redirect="true"/>
+  <file name="other.html" crc="40942670" seo="true" mt="1462131272726" redirect="true"/>
+  <file name="paradoxpowerplays.html" crc="3935924475" seo="true" mt="1462131017790" redirect="true"/>
 </manifest>

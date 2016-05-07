@@ -4,8 +4,8 @@
 
 .version.animations /* version checker */
 {
-	color: #00000B;
-	background-color: #13A996;
+	color: #0000F3;
+	background-color: #1F3C9E;
 }
 
 #muse_css_mq
@@ -81,8 +81,8 @@
 	min-height: 58px;
 	border-color: #FFFFFF;
 	background-color: transparent;
-	line-height: 58px;
 	color: #FFFFFF;
+	line-height: 58px;
 	font-size: 48px;
 	font-family: '__NiseSegaSonic_5';
 	font-weight: 400;
@@ -382,8 +382,8 @@
 	min-height: 63px;
 	border-color: #FFFFFF;
 	background-color: transparent;
-	line-height: 58px;
 	color: #FFFFFF;
+	line-height: 58px;
 	font-size: 48px;
 	font-family: '__NiseSegaSonic_5';
 	font-weight: 400;
